@@ -38,4 +38,4 @@ data/
 *.csv
 *.parquet
 models/
-*.bin
+*.bin.DS_Store
