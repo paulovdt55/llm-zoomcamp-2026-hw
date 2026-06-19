@@ -1,0 +1,41 @@
+# ==========================================
+# OpenAI Secrets & Environment Variables
+# ==========================================
+.env
+.envrc
+.env.[a-zA-Z]*
+*.env
+config.json
+secrets.toml
+
+# ==========================================
+# Python Virtual Environments & Dependencies
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+bin/
+lib/
+lib64/
+include/
+share/
+
+# ==========================================
+# Python Caches & Compiled Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Data Files
+# ==========================================
+data/
+*.csv
+*.parquet
+models/
+*.bin
